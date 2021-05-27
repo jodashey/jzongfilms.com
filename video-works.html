@@ -1,43 +1,878 @@
-<!doctype html>
+<!DOCTYPE html>
+<!--
+
+	Theme Name: HASWELL
+	Description: HTML/CSS 
+	Author: ABCgomel 
+	Designed & Coded by ABCgomel
+	
+-->
+
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Jz Ong Films</title>
-    <link rel="stylesheet" href="index.css">
+ 	<head>
+		<title>Jz Ong</title>
+		<meta charset="utf-8">
+		<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+		<meta name="robots" content="index, follow" > 
+		<meta name="keywords" content="HTML5 Template" > 
+		<meta name="description" content="Haswell - Responsive HTML5 Template" > 
+		<meta name="author" content="ABCgomel">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		<!-- FAVICONS -->
+    <link rel="shortcut icon" href="images/jzong_logo_black.png">
+    <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
+		
+<!-- CSS -->
 
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-  </head>
-  <body>
-			<nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light" id="ftco-navbar">
-		    <div class="container">
-		    	<a class="navbar-brand" href="index.html">JzOng</a>
-		    	<div class="social-media order-lg-last">
-		    		<p class="mb-0 d-flex">
-		    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
-		    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
-		    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
-		    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
-		    		</p>
-	        </div>
-		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-		        <span class="fa fa-bars"></span> Menu
-		      </button>
-		      <div class="collapse navbar-collapse" id="ftco-nav">
-		        <ul class="navbar-nav ml-auto mr-md-3">
-		        	<li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
-		        	<li class="nav-item"><a href="./about.html" class="nav-link">About</a></li>
-		        	<li class="nav-item"><a href="./photos.html" class="nav-link">Photos</a></li>
-					<li class="nav-item active"><a href="./video-works.html" class="nav-link">Video works</a></li>
-		          <li class="nav-item"><a href="./contact.html" class="nav-link">Contact</a></li>
-		        </ul>
-		      </div>
-		    </div>
-		  </nav>
-    <h1>What do you want to know?</h1>
-    <p>My first web page.</p>
-  </body>
-</html>
+    <!-- FLEXSLIDER SLIDER CSS -->
+		<link rel="stylesheet" type="text/css" href="css/flexslider.css"  >
+
+    <!-- BOOTSTRAP -->
+		<link rel="stylesheet" href="css/bootstrap.min.css"> 
+	
+    <!-- GOOGLE FONT -->		
+		<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700%7COpen+Sans:400,300,700' rel='stylesheet' type='text/css'>
+  
+    <!-- ICONS ELEGANT FONT & FONT AWESOME & LINEA ICONS -->		
+		<link rel="stylesheet" href="css/icons-fonts.css" >	
+	
+    <!-- CSS THEME -->		
+		<link rel="stylesheet" href="css/style.css" >
+
+    <!-- ANIMATE -->	
+		<link rel='stylesheet' href="css/animate.min.css">
+		
+    <!-- IE Warning CSS -->
+		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie-warning.css" ><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie8-fix.css" ><![endif]-->
+    
+    <!-- Magnific popup  in style.css	Owl Carousel Assets in style.css -->		
+	
+<!-- CSS end -->
+
+<!-- JS begin some js files in bottom of file-->
+		
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		
+    <!-- Modernizr -->
+    <!-- <script src="js/modernizr.js"></script> -->
+		
+	</head>
+	<body>
+	
+		<!-- LOADER -->	
+		<div id="loader-overflow">
+      <div id="loader3">Please enable JS</div>
+    </div>	
+
+		<div id="wrap" class="boxed ">
+			<div class="grey-bg"> <!-- Grey BG  -->	
+				
+				<!--[if lte IE 8]>
+				<div id="ie-container">
+					<div id="ie-cont-close">
+						<a href='#' onclick='javascript&#058;this.parentNode.parentNode.style.display="none"; return false;'><img src='images/ie-warn/ie-warning-close.jpg' style='border: none;' alt='Close'></a>
+					</div>
+					<div id="ie-cont-content" >
+						<div id="ie-cont-warning">
+							<img src='images/ie-warn/ie-warning.jpg' alt='Warning!'>
+						</div>
+						<div id="ie-cont-text" >
+							<div id="ie-text-bold">
+								You are using an outdated browser
+							</div>
+							<div id="ie-text">
+								For a better experience using this site, please upgrade to a modern web browser.
+							</div>
+						</div>
+						<div id="ie-cont-brows" >
+							<a href='http://www.firefox.com' target='_blank'><img src='images/ie-warn/ie-warning-firefox.jpg' alt='Download Firefox'></a>
+							<a href='http://www.opera.com/download/' target='_blank'><img src='images/ie-warn/ie-warning-opera.jpg' alt='Download Opera'></a>
+							<a href='http://www.apple.com/safari/download/' target='_blank'><img src='images/ie-warn/ie-warning-safari.jpg' alt='Download Safari'></a>
+							<a href='http://www.google.com/chrome' target='_blank'><img src='images/ie-warn/ie-warning-chrome.jpg' alt='Download Google Chrome'></a>
+						</div>
+					</div>
+				</div>
+				<![endif]-->
+				
+				<!-- HEADER 1 NO-TRANSPARENT -->
+				<header id="nav" class="header header-1 no-transparent mobile-no-transparent">
+          
+				  <div class="header-wrapper">
+					<div class="container-m-30 clearfix">
+					  <div class="logo-row">
+					  
+						<!-- LOGO --> 
+						<div class="logo-container-2">
+              <div class="logo-2">
+                <a href="index.html" class="clearfix">
+                  <img src="images/jzong_logo_black.png" class="logo-img" alt="Logo">
+                </a>
+              </div>
+            </div>
+          <!-- BUTTON --> 
+          <div class="menu-btn-respons-container">
+            <button type="button" class="navbar-toggle btn-navbar collapsed" data-toggle="collapse" data-target="#main-menu .navbar-collapse">
+              <span aria-hidden="true" class="icon_menu hamb-mob-icon"></span>
+            </button>
+          </div>
+         </div>
+        </div>
+
+        <!-- MAIN MENU CONTAINER -->
+        <div class="main-menu-container">
+          
+          <div class="container-m-30 clearfix">	
+          
+            <!-- MAIN MENU -->
+            <div id="main-menu">
+              <div class="navbar navbar-default" role="navigation">
+
+              <!-- MAIN MENU LIST -->
+              <nav class="collapse collapsing navbar-collapse right-1024">
+                <ul class="nav navbar-nav">
+                  
+                  <!-- MENU ITEM -->
+                  <li>
+                    <a href="index.html"><div class="main-menu-title">HOME</div></a>
+                  </li>
+
+                  <!-- MENU ITEM -->
+                  <li>
+                    <a href="photos.html"><div class="main-menu-title">PHOTOS</div></a>
+                  </li>				
+                  
+                  <!-- MENU ITEM -->
+                  <li class="current">
+                    <a href="video-works.html"><div class="main-menu-title">VIDEO WORKS</div></a>
+                  </li>					
+                  
+                  <!-- MENU ITEM -->
+                  <li>
+                    <a href="#"><div class="main-menu-title">TREATMENTS</div></a>
+                  </li>	
+                  
+                  <!-- MENU ITEM -->
+                  <li>
+                    <a href="#"><div class="main-menu-title">ABOUT ME</div></a>
+                  </li>				
+                
+                </ul>
+          
+              </nav>
+
+              </div>
+            </div>
+            <!-- END main-menu -->
+            
+          </div>
+          <!-- END container-m-30 -->
+        
+      </div>
+      <!-- END main-menu-container -->
+					
+					<!-- SEARCH READ DOCUMENTATION -->
+					<ul class="cd-header-buttons">
+						<li><a class="cd-search-trigger" href="#cd-search"><span></span></a></li>
+					</ul> <!-- cd-header-buttons -->
+					<div id="cd-search" class="cd-search">
+						<form class="form-search" id="searchForm" action="page-search-results.html" method="get">
+							<input type="text" value="" name="q" id="q" placeholder="Search...">
+						</form>
+					</div>
+					
+				  </div>
+				  <!-- END header-wrapper -->
+				  
+				</header>
+
+        <!-- PAGE TITLE SMALL -->
+        <div class="page-title-cont page-title-small grey-light-bg">
+          <div class="relative container align-left">
+            <div class="row">
+              
+              <div class="col-md-8">
+                <h1 class="page-title"></h1>
+              </div>
+              
+              <div class="col-md-4">
+              </div>
+              
+            </div>
+          </div>
+        </div>
+       
+      <div class="grey-light-bg clearfix">    
+        <!-- COTENT CONTAINER -->
+        <div class="container white-bg plr-30 pt-50 pb-30 ">
+        
+          <div class="relative">
+            <!-- PORTFOLIO FILTER -->                    
+            <div class="port-filter ">
+              <a href="#" class="filter active" data-filter="*">All Projects</a>
+              <a href="#" class="filter" data-filter=".documentaries">Documentaries</a>
+              <a href="#" class="filter" data-filter=".dramas">Dramas</a>
+              <a href="#" class="filter" data-filter=".talkshow">Talk Show</a>
+              <a href="#" class="filter" data-filter=".promo">Promo Videos</a>
+            </div>                    
+                    
+            <!-- ITEMS GRID -->
+            <ul class="port-grid port-grid-2 display-hover-on-mobile port-grid-gut clearfix" id="items-grid">
+              
+              <!-- Item 1 -->
+              <li role="button" class="port-item mix promo">
+                  <div class="port-img-overlay"><video class="port-main-img" src="video/rol_ep1_trailer.mp4" alt="video" autoplay muted loop></div>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                      <h3>MOBILE LEGENDS</h3>
+                      <span>RISE OF LEGEND<span class="slash-divider">/</span>EPISODE 1</span>
+                    </div>
+                    <div class="port-btn-cont">
+											<a href="https://youtu.be/IZTpbQ4gQ54" target="_blank"><div aria-hidden="true" class="icon_link"></div></a>
+                    </div>
+
+                </div>
+              </li>
+
+              <!-- Item 2 -->
+              <li role="button" class="port-item mix promo">
+                <div class="port-img-overlay"><video class="port-main-img" src="video/mlbb_m2_groupstage_openingvideo_trailer.mp4" alt="video" autoplay muted loop></div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <h3>MOBILE LEGENDS</h3>
+                    <span>M2<span class="slash-divider">/</span>GROUPSTAGE OPENING VIDEO</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="https://youtu.be/AT6KxvziFyI" target="_blank"><div aria-hidden="true" class="icon_link"></div></a>
+                  </div>
+
+              </div>
+            </li>     
+
+              <!-- Item 2 -->
+              <li role="button" class="port-item mix promo">
+                <div class="port-img-overlay"><video class="port-main-img" src="video/mlbb_m2_playoff01_openingvideo_trailer.mp4" alt="video" autoplay muted loop></div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <h3>MOBILE LEGENDS</h3>
+                    <span>M2<span class="slash-divider">/</span>PLAYOFF<span class="slash-divider">/</span>DAY 1 OPENING VIDEO</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="https://youtu.be/AT6KxvziFyI" target="_blank"><div aria-hidden="true" class="icon_link"></div></a>
+                  </div>
+
+              </div>
+            </li>  
+            
+              <!-- Item 2 -->
+              <li role="button" class="port-item mix promo">
+                <div class="port-img-overlay"><video class="port-main-img" src="video/mlbb_m2_playoff02_openingvideo_trailer.mp4" alt="video" autoplay muted loop></div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <h3>MOBILE LEGENDS</h3>
+                    <span>M2<span class="slash-divider">/</span>PLAYOFF<span class="slash-divider">/</span>DAY 2 OPENING VIDEO</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="https://youtu.be/AT6KxvziFyI" target="_blank"><div aria-hidden="true" class="icon_link"></div></a>
+                  </div>
+
+              </div>
+            </li>       
+            
+              <!-- Item 2 -->
+              <li role="button" class="port-item mix promo">
+                <div class="port-img-overlay"><video class="port-main-img" src="video/mlbb_m2_playoff03_openingvideo_trailer.mp4" alt="video" autoplay muted loop></div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <h3>MOBILE LEGENDS</h3>
+                    <span>M2<span class="slash-divider">/</span>PLAYOFF<span class="slash-divider">/</span>DAY 3 OPENING VIDEO</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="https://youtu.be/AT6KxvziFyI" target="_blank"><div aria-hidden="true" class="icon_link"></div></a>
+                  </div>
+
+              </div>
+            </li>  
+            
+              <!-- Item 2 -->
+              <li role="button" class="port-item mix promo">
+                <div class="port-img-overlay"><video class="port-main-img" src="video/mlbb_mpls6_merdekavideo_trailer.mp4" alt="video" autoplay muted loop></div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <h3>MOBILE LEGENDS</h3>
+                    <span>MPL SEASON 6<span class="slash-divider">/</span>MERDEKA VIDEO</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="https://youtu.be/AT6KxvziFyI" target="_blank"><div aria-hidden="true" class="icon_link"></div></a>
+                  </div>
+
+              </div>
+            </li> 
+            
+              <!-- Item 2 -->
+              <li role="button" class="port-item mix promo">
+                <div class="port-img-overlay"><video class="port-main-img" src="video/mlbb_mpls6_playoff01_openingvideo_trailer.mp4" alt="video" autoplay muted loop></div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <h3>MOBILE LEGENDS</h3>
+                    <span>MPL SEASON 6<span class="slash-divider">/</span>PLAYOFF<span class="slash-divider">/</span>DAY 1 VIDEO</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="https://youtu.be/AT6KxvziFyI" target="_blank"><div aria-hidden="true" class="icon_link"></div></a>
+                  </div>
+
+              </div>
+            </li>       
+            
+              <!-- Item 2 -->
+              <li role="button" class="port-item mix promo">
+                <div class="port-img-overlay"><video class="port-main-img" src="video/mlbb_mpls6_playoff02_openingvideo_trailer.mp4" alt="video" autoplay muted loop></div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <h3>MOBILE LEGENDS</h3>
+                    <span>MPL SEASON 6<span class="slash-divider">/</span>PLAYOFF<span class="slash-divider">/</span>DAY 2 VIDEO</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="https://youtu.be/AT6KxvziFyI" target="_blank"><div aria-hidden="true" class="icon_link"></div></a>
+                  </div>
+
+              </div>
+            </li>     
+            
+              <!-- Item 2 -->
+              <li role="button" class="port-item mix promo">
+                <div class="port-img-overlay"><video class="port-main-img" src="video/mlbb_mpls6_playoff03_openingvideo_trailer.mp4" alt="video" autoplay muted loop></div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <h3>MOBILE LEGENDS</h3>
+                    <span>MPL SEASON 6<span class="slash-divider">/</span>PLAYOFF<span class="slash-divider">/</span>DAY 1 VIDEO</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="https://youtu.be/AT6KxvziFyI" target="_blank"><div aria-hidden="true" class="icon_link"></div></a>
+                  </div>
+
+              </div>
+            </li>             
+
+              <!-- Item 2 -->
+              <li role="button" class="port-item mix promo">
+                <div class="port-img-overlay"><video class="port-main-img" src="video/mlbb_mpls6_regularseason_openingvideo_trailer.mp4" alt="video" autoplay muted loop></div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <h3>MOBILE LEGENDS</h3>
+                    <span>MPL SEASON 6<span class="slash-divider">/</span>OPENING VIDEO</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="https://youtu.be/AT6KxvziFyI" target="_blank"><div aria-hidden="true" class="icon_link"></div></a>
+                  </div>
+
+              </div>
+            </li> 
+            
+              <!-- Item 2 -->
+              <li role="button" class="port-item mix promo">
+                <div class="port-img-overlay"><video class="port-main-img" src="video/mlbb_mpls6_rolep01_documentary_trailer.mp4" alt="video" autoplay muted loop></div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <h3>MOBILE LEGENDS</h3>
+                    <span>MPL SEASON 6<span class="slash-divider">/</span>RISE OF LEGEND<span class="slash-divider">/</span>EPISODE 1</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="https://youtu.be/AT6KxvziFyI" target="_blank"><div aria-hidden="true" class="icon_link"></div></a>
+                  </div>
+
+              </div>
+            </li>             
+
+              <!-- Item 2 -->
+              <li role="button" class="port-item mix promo">
+                <div class="port-img-overlay"><video class="port-main-img" src="video/mlbb_mpls6_rolep02_documentary_trailer.mp4" alt="video" autoplay muted loop></div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <h3>MOBILE LEGENDS</h3>
+                    <span>MPL SEASON 6<span class="slash-divider">/</span>RISE OF LEGEND<span class="slash-divider">/</span>EPISODE 2</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="https://youtu.be/AT6KxvziFyI" target="_blank"><div aria-hidden="true" class="icon_link"></div></a>
+                  </div>
+
+              </div>
+            </li>
+            
+              <!-- Item 2 -->
+              <li role="button" class="port-item mix promo">
+                <div class="port-img-overlay"><video class="port-main-img" src="video/mlbb_mpls6_rolep03_documentary_trailer.mp4" alt="video" autoplay muted loop></div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <h3>MOBILE LEGENDS</h3>
+                    <span>MPL SEASON 6<span class="slash-divider">/</span>RISE OF LEGEND<span class="slash-divider">/</span>EPISODE 3</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="https://youtu.be/AT6KxvziFyI" target="_blank"><div aria-hidden="true" class="icon_link"></div></a>
+                  </div>
+
+              </div>
+            </li> 
+            
+              <!-- Item 2 -->
+              <li role="button" class="port-item mix promo">
+                <div class="port-img-overlay"><video class="port-main-img" src="video/mlbb_mpls7_regularseason_openingvideo_trailer.mp4" alt="video" autoplay muted loop></div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <h3>MOBILE LEGENDS</h3>
+                    <span>MPL SEASON 7<span class="slash-divider">/</span>OPENING VIDEO</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="https://youtu.be/AT6KxvziFyI" target="_blank"><div aria-hidden="true" class="icon_link"></div></a>
+                  </div>
+
+              </div>
+            </li>       
+            
+              <!-- Item 2 -->
+              <li role="button" class="port-item mix promo">
+                <div class="port-img-overlay"><video class="port-main-img" src="video/mlbb_insidershow_ep02_trailer.mp4" alt="video" autoplay muted loop></div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <h3>MOBILE LEGENDS</h3>
+                    <span>INSIDER SHOW<span class="slash-divider">/</span>EPISODE 2</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="https://youtu.be/AT6KxvziFyI" target="_blank"><div aria-hidden="true" class="icon_link"></div></a>
+                  </div>
+
+              </div>
+            </li>                         
+
+              <!-- Item 2 -->
+              <li role="button" class="port-item mix promo">
+                <div class="port-img-overlay"><video class="port-main-img" src="video/carlsbergtopten2019_jeryl_trailer.mp4" alt="video" autoplay muted loop></div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <h3>CARLSBERG</h3>
+                    <span>CARLSBERG TOP TEN 2019<span class="slash-divider">/</span>JERYL LEE</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="https://youtu.be/jJtpAMz35CI" target="_blank"><div aria-hidden="true" class="icon_link"></div></a>
+                  </div>
+
+              </div>
+            </li> 
+
+              <!-- Item 2 -->
+              <li role="button" class="port-item mix promo">
+                <div class="port-img-overlay"><video class="port-main-img" src="video/carlsbergtopten2019_zhaojieying_trailer.mp4" alt="video" autoplay muted loop></div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <h3>CARLSBERG</h3>
+                    <span>CARLSBERG TOP TEN 2019<span class="slash-divider">/</span>THA JIE YING</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="https://youtu.be/jJtpAMz35CI" target="_blank"><div aria-hidden="true" class="icon_link"></div></a>
+                  </div>
+
+              </div>
+            </li>        
+            
+              <!-- Item 2 -->
+              <li role="button" class="port-item mix promo">
+                <div class="port-img-overlay"><video class="port-main-img" src="video/carlsbergtopten2019_lingjiajun_trailer.mp4" alt="video" autoplay muted loop></div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <h3>CARLSBERG</h3>
+                    <span>CARLSBERG TOP TEN 2019<span class="slash-divider">/</span>LIN KAH JUN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="https://youtu.be/jJtpAMz35CI" target="_blank"><div aria-hidden="true" class="icon_link"></div></a>
+                  </div>
+
+              </div>
+            </li>        
+            
+              <!-- Item 2 -->
+              <li role="button" class="port-item mix promo">
+                <div class="port-img-overlay"><video class="port-main-img" src="video/carlsbergtopten2019_juztin_trailer.mp4" alt="video" autoplay muted loop></div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <h3>CARLSBERG</h3>
+                    <span>CARLSBERG TOP TEN 2019<span class="slash-divider">/</span>JUZTIN LAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="https://youtu.be/jJtpAMz35CI" target="_blank"><div aria-hidden="true" class="icon_link"></div></a>
+                  </div>
+
+              </div>
+            </li>  
+
+            <!-- Item 2 -->
+            <li role="button" class="port-item mix promo">
+              <div class="port-img-overlay"><video class="port-main-img" src="video/carlsbergtopten2019_ribbon_trailer.mp4" alt="video" autoplay muted loop></div>
+            <div class="port-overlay-cont">
+
+                <div class="port-title-cont">
+                  <h3>CARLSBERG</h3>
+                  <span>CARLSBERG TOP TEN 2019<span class="slash-divider">/</span>RIBBON OOI</span>
+                </div>
+                <div class="port-btn-cont">
+                  <a href="https://youtu.be/jJtpAMz35CI" target="_blank"><div aria-hidden="true" class="icon_link"></div></a>
+                </div>
+
+            </div>
+          </li>     
+          
+            
+              <!-- Item 2 -->
+              <li role="button" class="port-item mix promo">
+                <div class="port-img-overlay"><video class="port-main-img" src="video/carlsbergtopten2019_pink_trailer.mp4" alt="video" autoplay muted loop></div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <h3>CARLSBERG</h3>
+                    <span>CARLSBERG TOP TEN 2019<span class="slash-divider">/</span>PINK TAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="https://youtu.be/jJtpAMz35CI" target="_blank"><div aria-hidden="true" class="icon_link"></div></a>
+                  </div>
+
+              </div>
+            </li>            
+            
+              <!-- Item 2 -->
+              <li role="button" class="port-item mix promo">
+                <div class="port-img-overlay"><video class="port-main-img" src="video/carlsbergtopten2019_gary_trailer.mp4" alt="video" autoplay muted loop></div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <h3>CARLSBERG</h3>
+                    <span>CARLSBERG TOP TEN 2019<span class="slash-divider">/</span>GARY CHEE</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="https://youtu.be/jJtpAMz35CI" target="_blank"><div aria-hidden="true" class="icon_link"></div></a>
+                  </div>
+
+              </div>
+            </li>     
+            
+              <!-- Item 2 -->
+              <li role="button" class="port-item mix promo">
+                <div class="port-img-overlay"><video class="port-main-img" src="video/carlsbergtopten2019_crystal_trailer.mp4" alt="video" autoplay muted loop></div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <h3>CARLSBERG</h3>
+                    <span>CARLSBERG TOP TEN 2019<span class="slash-divider">/</span>CRYSTAL ONG</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="https://youtu.be/jJtpAMz35CI" target="_blank"><div aria-hidden="true" class="icon_link"></div></a>
+                  </div>
+
+              </div>
+            </li>                                    
+
+              <!-- Item 2 -->
+              <li role="button" class="port-item mix documentaries">
+                <div class="port-img-overlay"><video class="port-main-img" src="video/i_lost_a_cat_in_taiwan_travelvideo_trailer.mp4" alt="video" autoplay muted loop></div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <h3>TAIWAN VLOG</h3>
+                    <span>2019</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="https://youtu.be/s57i-7vzsiI" target="_blank"><div aria-hidden="true" class="icon_link"></div></a>
+                  </div>
+
+              </div>
+            </li> 
+            
+              <!-- Item 2 -->
+              <li role="button" class="port-item mix dramas">
+                <div class="port-img-overlay"><video class="port-main-img" src="video/shortfilm2018_meandyou_trailer" alt="video" autoplay muted loop></div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <h3>YOU AND ME</h3>
+                    <span></span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="https://youtu.be/s57i-7vzsiI" target="_blank"><div aria-hidden="true" class="icon_link"></div></a>
+                  </div>
+
+              </div>
+            </li>             
+              
+
+              <!-- Item 2 -->
+              <li role="button" class="port-item mix design">
+                <a href="portfolio-single1.html">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="images/portfolio/projects-3.jpg" alt="img" >
+                  </div>
+                </a>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                      <h3><a href="portfolio-single1.html">CALENDAR</a></h3>
+                      <span><a href="#">photography</a><span class="slash-divider">/</span><a href="#">media</a></span>
+                    </div>
+                    <div class="port-btn-cont">
+                      <span class="popup-multi-gallery">
+												<a href="images/portfolio/projects-3.jpg" class="lightbox-item mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+												<a href="images/blog/post-prev-1.jpg"></a>
+                      	<a href="images/blog/post-prev-2.jpg"></a>
+                      	<a href="images/blog/post-prev-3.jpg"></a>
+											</span>
+                      <a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>
+                    </div>
+
+                </div>
+              </li>
+              
+              <!-- Item 3 -->
+              <li role="button" class="port-item mix photography">
+                <a href="portfolio-single1.html">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="images/portfolio/projects-1.jpg" alt="img" >
+                  </div>
+                </a>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                      <h3><a href="portfolio-single1.html">EYES OF THE CAR</a></h3>
+                      <span><a href="#">branding</a><span class="slash-divider">/</span><a href="#">marketing</a></span>
+                    </div>
+                    <div class="port-btn-cont">
+											<span class="popup-multi-gallery">
+												<a href="images/portfolio/projects-1.jpg" class="lightbox-item mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+												<a href="images/portfolio/car-2.jpg"></a>
+                      	<a href="images/portfolio/car-3.jpg"></a>
+                      	<a href="images/portfolio/car-4.jpg"></a>
+											</span>	
+                      <a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>
+                    </div>
+
+                </div>
+              </li>
+              
+              <!-- Item 4 -->
+              <li role="button" class="port-item mix development">
+                <a href="portfolio-single1.html">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="images/portfolio/projects-6.jpg" alt="img" >
+                  </div>
+                </a>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                      <h3><a href="portfolio-single1.html">NOW IS NOW</a></h3>
+                      <span><a href="#">design</a><span class="slash-divider">/</span><a href="#">photography</a></span>
+                    </div>
+                    <div class="port-btn-cont">
+											<span class="popup-multi-gallery">
+												<a href="images/portfolio/projects-6.jpg" class="lightbox-item mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+												<a href="images/portfolio/projects-6.jpg"></a>
+												<a href="images/portfolio/projects-6-box.jpg"></a>
+												<a href="images/portfolio/projects-8.jpg"></a>
+											</span>
+                      <a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>
+                    </div>
+
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix design">
+                <a href="portfolio-single1.html">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="images/portfolio/projects-7.jpg" alt="img" >
+                  </div>
+                </a>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                      <h3><a href="portfolio-single1.html">EYES OF THE CAR</a></h3>
+                      <span><a href="#">ui elements</a><span class="slash-divider">/</span><a href="#">media</a></span>
+                    </div>
+                    <div class="port-btn-cont">
+											<span class="popup-multi-gallery">
+												<a href="images/portfolio/projects-7.jpg" class="lightbox-item mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+												<a href="images/portfolio/projects-9.jpg"></a>
+                      	<a href="images/portfolio/projects-10.jpg"></a>
+                      	<a href="images/portfolio/projects-11.jpg"></a>
+											</span>
+                      <a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>
+                    </div>
+
+                </div>
+              </li>
+              
+              <!-- Item 6 -->
+              <li role="button" class="port-item mix photography">
+                <a href="portfolio-single1.html">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="images/portfolio/projects-4.jpg" alt="img" >
+                  </div>
+                </a>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                      <h3><a href="portfolio-single1.html">LOVE</a></h3>
+                      <span><a href="#">branding</a><span class="slash-divider">/</span><a href="#">media</a></span>
+                    </div>
+                    <div class="port-btn-cont">
+											<span class="popup-multi-gallery">
+												<a href="images/portfolio/projects-4.jpg" class="lightbox-item mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+												<a href="images/blog/post-prev-4.jpg"></a>
+                      	<a href="images/blog/post-prev-5.jpg"></a>
+                      	<a href="images/blog/post-prev-6.jpg"></a>
+											</span>
+                      <a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>
+                    </div>
+
+                </div>
+              </li>
+                           
+              <!-- Item 7 -->
+              <li role="button" class="port-item mix development">
+                <a href="portfolio-single1.html">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="images/portfolio/projects-8.jpg" alt="img" >
+                  </div>
+                </a>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                      <h3><a href="portfolio-single1.html">NOW IS NOW</a></h3>
+                      <span><a href="#">design</a><span class="slash-divider">/</span><a href="#">photography</a></span>
+                    </div>
+                    <div class="port-btn-cont">
+											<span class="popup-multi-gallery">
+												<a href="images/portfolio/projects-8.jpg" class="lightbox-item mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+												<a href="images/portfolio/projects-12.jpg"></a>
+                      	<a href="images/portfolio/projects-13.jpg"></a>
+                      	<a href="images/portfolio/projects-14.jpg"></a>
+											</span>
+                      <a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>
+                    </div>
+
+                </div>
+              </li>
+              
+              <!-- Item 8 -->
+              <li role="button" class="port-item mix design">
+                <a href="portfolio-single1.html">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="images/portfolio/projects-10.jpg" alt="img" >
+                  </div>
+                </a>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                      <h3><a href="portfolio-single1.html">EYES OF THE CAR</a></h3>
+                      <span><a href="#">ui elements</a><span class="slash-divider">/</span><a href="#">media</a></span>
+                    </div>
+                    <div class="port-btn-cont">
+                      <span class="popup-multi-gallery">
+												<a href="images/portfolio/projects-10.jpg" class="lightbox-item mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+												<a href="images/blog/post-prev-1.jpg"></a>
+                      	<a href="images/blog/post-prev-2.jpg"></a>
+                      	<a href="images/blog/post-prev-3.jpg"></a>
+											</span>
+                      <a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>
+                    </div>
+
+                </div>
+              </li>
+
+            </ul>
+          
+          </div>
+        
+        </div>
+	    
+      </div>
+
+        <!-- FOOTER 1 FONT WHITE only social links -->
+        <footer id="footer7" class="page-section text-center p-20-cont" style="background-color: #EEEEEE;">
+          <div class="container">
+                    
+            <!-- Social Links -->
+            <div class="footer-soc-a footer-soc-a-2">
+              <a class="a" href="http://www.instagram.com/jzonggg/" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+              <a class="a" href="https://www.facebook.com/jiongzhengong" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a class="a" href="https://www.youtube.com/channel/UCDzuCnJJVZMT1YDeq-RrAMQ" title="YouTube" target="_blank"><i class="fa fa-youtube-play"></i></a>
+              <a class="a" href="https://wa.me/60102265327" title="Phone" target="_blank"><i class="fa fa-phone"></i></a>
+              <a class="a" href="mailto:jiongzhengong@gmail.com" title="Mail" target="_blank"><i class="fa fa-envelope"></i></a>
+            </div>
+                    
+          </div>
+        </footer>
+        
+				<!-- BACK TO TOP -->
+				<p id="back-top">
+          <a href="#top" title="Back to Top"><span class="icon icon-arrows-up"></span></a>
+        </p>
+        
+			</div><!-- End BG -->	
+		</div><!-- End wrap -->	
+			
+<!-- JS begin -->
+
+		<!-- jQuery  -->
+		<script src="js/jquery-1.11.2.min.js"></script>
+
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>		
+
+		<!-- MAGNIFIC POPUP -->
+		<script src='js/jquery.magnific-popup.min.js'></script>
+    
+    <!-- PORTFOLIO SCRIPTS -->
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    
+    <!-- COUNTER -->
+    <script src="js/jquery.countTo.js"></script>
+    
+    <!-- APPEAR -->    
+    <script src="js/jquery.appear.js"></script>
+    
+    <!-- OWL CAROUSEL -->    
+    <script src="js/owl.carousel.min.js"></script>
+    
+    <!-- MAIN SCRIPT -->
+		<script src="js/main.js"></script>
+    
+<!-- JS end -->	
+	
+	</body>
+</html>		

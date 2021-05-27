@@ -1,84 +1,2417 @@
-<!doctype html>
+<!DOCTYPE html>
+<!--
+
+	Theme Name: HASWELL
+	Description: HTML/CSS 
+	Author: ABCgomel 
+	Designed & Coded by ABCgomel
+	
+-->
+
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Jz Ong Films</title>
+ 	<head>
+		<title>Jz Ong</title>
+		<meta charset="utf-8">
+		<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+		<meta name="robots" content="index, follow" > 
+		<meta name="keywords" content="Jz Ong" > 
+		<meta name="description" content="Jz Ong Portfolio" > 
+		<meta name="author" content="Wong Jo-Ey">
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		<!-- FAVICONS -->
+    <link rel="shortcut icon" href="images/jzong_logo_black.png">
+    <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
+		
+<!-- CSS -->
 
-    <link rel="stylesheet" href="index.css">
+    <!-- FLEXSLIDER SLIDER CSS -->
+		<link rel="stylesheet" type="text/css" href="css/flexslider.css"  >
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP -->
+		<link rel="stylesheet" href="css/bootstrap.min.css"> 
+	
+    <!-- GOOGLE FONT -->		
+		<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700%7COpen+Sans:400,300,700' rel='stylesheet' type='text/css'>
+  
+    <!-- ICONS ELEGANT FONT & FONT AWESOME & LINEA ICONS -->		
+		<link rel="stylesheet" href="css/icons-fonts.css" >	
+	
+    <!-- CSS THEME -->		
+		<link rel="stylesheet" href="css/style.css" >
 
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-  </head>
-  <body>
-			<nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light" id="ftco-navbar">
-		    <div class="container">
-		    	<a class="navbar-brand" href="index.html">JzOng</a>
-		    	<div class="social-media order-lg-last">
-		    		<p class="mb-0 d-flex">
-		    			<a href="https://www.facebook.com/jiongzhengong" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
-		    			<a href="https://www.instagram.com/jzonggg/" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
-						
-		    		</p>
-	        </div>
-		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-		        <span class="fa fa-bars"></span> Menu
-		      </button>
-		      <div class="collapse navbar-collapse" id="ftco-nav" text-align="right">
-		        <ul class="navbar-nav ml-auto mr-md-3">
-		        	<li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
-		        	<li class="nav-item active"><a href="./photos.html" class="nav-link">Photos</a></li>
-					<li class="nav-item"><a href="./video-works.html" class="nav-link">Video works</a></li>
-		          <li class="nav-item"><a href="./resume.html" class="nav-link">Resume</a></li>
-		        </ul>
-		      </div>
-		    </div>
-		  </nav>
-          <div class="row">
-            <div>
-                <h1>Check out some of my photos here.</h1>
+    <!-- ANIMATE -->	
+		<link rel='stylesheet' href="css/animate.min.css">
+		
+    <!-- IE Warning CSS -->
+		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie-warning.css" ><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie8-fix.css" ><![endif]-->
+    
+    <!-- Magnific popup  in style.css	Owl Carousel Assets in style.css -->		
+	
+<!-- CSS end -->
+
+<!-- JS begin some js files in bottom of file-->
+		
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		
+    <!-- Modernizr -->
+    <!-- <script src="js/modernizr.js"></script> -->
+		
+	</head>
+	<body>
+	
+		<!-- LOADER -->	
+		<div id="loader-overflow">
+      <div id="loader3">Please enable JS</div>
+    </div>	
+
+		<div id="wrap" class="boxed ">
+			<div class="grey-bg"> <!-- Grey BG  -->	
+				
+				<!--[if lte IE 8]>
+				<div id="ie-container">
+					<div id="ie-cont-close">
+						<a href='#' onclick='javascript&#058;this.parentNode.parentNode.style.display="none"; return false;'><img src='images/ie-warn/ie-warning-close.jpg' style='border: none;' alt='Close'></a>
+					</div>
+					<div id="ie-cont-content" >
+						<div id="ie-cont-warning">
+							<img src='images/ie-warn/ie-warning.jpg' alt='Warning!'>
+						</div>
+						<div id="ie-cont-text" >
+							<div id="ie-text-bold">
+								You are using an outdated browser
+							</div>
+							<div id="ie-text">
+								For a better experience using this site, please upgrade to a modern web browser.
+							</div>
+						</div>
+						<div id="ie-cont-brows" >
+							<a href='http://www.firefox.com' target='_blank'><img src='images/ie-warn/ie-warning-firefox.jpg' alt='Download Firefox'></a>
+							<a href='http://www.opera.com/download/' target='_blank'><img src='images/ie-warn/ie-warning-opera.jpg' alt='Download Opera'></a>
+							<a href='http://www.apple.com/safari/download/' target='_blank'><img src='images/ie-warn/ie-warning-safari.jpg' alt='Download Safari'></a>
+							<a href='http://www.google.com/chrome' target='_blank'><img src='images/ie-warn/ie-warning-chrome.jpg' alt='Download Google Chrome'></a>
+						</div>
+					</div>
+				</div>
+				<![endif]-->
+				
+				<!-- HEADER 1 NO-TRANSPARENT -->
+				<header id="nav" class="header header-1 no-transparent mobile-no-transparent">
+          
+				  <div class="header-wrapper">
+					<div class="container-m-30 clearfix">
+					  <div class="logo-row">
+					  
+						<!-- LOGO --> 
+						<div class="logo-container-2">
+              <div class="logo-2">
+                <a href="index.html" class="clearfix">
+                  <img src="images/jzong_logo_black.png" class="logo-img" alt="Logo">
+                </a>
+              </div>
             </div>
+          <!-- BUTTON --> 
+          <div class="menu-btn-respons-container">
+            <button type="button" class="navbar-toggle btn-navbar collapsed" data-toggle="collapse" data-target="#main-menu .navbar-collapse">
+              <span aria-hidden="true" class="icon_menu hamb-mob-icon"></span>
+            </button>
+          </div>
+         </div>
         </div>
-            <div class="row">
-                <div class="column">
-                    <div class="img-container">
-                        <img class="header-image" src="./assets/Food_Header.jpg"> 
-                            <div class="overlay">
-                                <div class="text">Food</div>
-                            </div>
-                    </div>
+
+        <!-- MAIN MENU CONTAINER -->
+        <div class="main-menu-container">
+          
+            <div class="container-m-30 clearfix">	
+            
+              <!-- MAIN MENU -->
+              <div id="main-menu">
+                <div class="navbar navbar-default" role="navigation">
+
+                <!-- MAIN MENU LIST -->
+                <nav class="collapse collapsing navbar-collapse right-1024">
+                  <ul class="nav navbar-nav">
+                    
+                    <!-- MENU ITEM -->
+                    <li>
+                      <a href="index.html"><div class="main-menu-title">HOME</div></a>
+                    </li>
+
+                    <!-- MENU ITEM -->
+                    <li class="current">
+                      <a href="photos.html"><div class="main-menu-title">PHOTOS</div></a>
+                    </li>				
+                    
+                    <!-- MENU ITEM -->
+                    <li>
+                      <a href="video-works.html"><div class="main-menu-title">VIDEO WORKS</div></a>
+                    </li>					
+                    
+                    <!-- MENU ITEM -->
+                    <li>
+                      <a href="#"><div class="main-menu-title">TREATMENTS</div></a>
+                    </li>	
+                    
+                    <!-- MENU ITEM -->
+                    <li>
+                      <a href="#"><div class="main-menu-title">ABOUT ME</div></a>
+                    </li>				
+                  
+                  </ul>
+            
+                </nav>
+
                 </div>
-                <div class="column">
-                    <div class="img-container">
-                        <img class="header-image" src="./assets/HomeImage.jpg"> 
-                            <div class="overlay">
-                                <div class="text">Production</div>
-                            </div>
-                    </div>
-                </div>
+              </div>
+              <!-- END main-menu -->
+              
             </div>
+            <!-- END container-m-30 -->
+          
+        </div>
+        <!-- END main-menu-container -->
+					
+					<!-- SEARCH READ DOCUMENTATION -->
+					<ul class="cd-header-buttons">
+						<li><a class="cd-search-trigger" href="#cd-search"><span></span></a></li>
+					</ul> <!-- cd-header-buttons -->
+					<div id="cd-search" class="cd-search">
+						<form class="form-search" id="searchForm" action="page-search-results.html" method="get">
+							<input type="text" value="" name="q" id="q" placeholder="Search...">
+						</form>
+					</div>
+					
+				  </div>
+				  <!-- END header-wrapper -->
+				  
+				</header>
+
+        <!-- PAGE TITLE SMALL -->
+        <div class="page-title-cont page-title-small grey-light-bg">
+          <div class="relative container align-left">
             <div class="row">
-                <div class="column">
-                    <div class="img-container">
-                                <img class="header-image" src="./assets/HomeImage.jpg"> 
-                                    <div class="overlay">
-                                        <div class="text">Travels</div>
-                                    </div>
-                    </div>
+              
+              <div class="col-md-8">
+                <h1 class="page-title"></h1>
+              </div>
+              
+              <div class="col-md-4">
+                <div class="breadcrumbs">
                 </div>
-                <div class="column">
-                    <div class="img-container">
-                                <img class="header-image" src="./assets/HomeImage.jpg"> 
-                                    <div class="overlay">
-                                        <div class="text">Life</div>
-                                    </div>
-                    </div>
-                </div>
+              </div>
+              
             </div>
-          </body>
-  </body>
-</html>
+          </div>
+        </div>
+       
+      <div class="grey-light-bg plr-30 plr-0-767 clearfix">    
+        <!-- COTENT CONTAINER -->
+        <div class="white-bg plr-30 pt-50 pb-80">
+        
+          <div class="relative">
+            <!-- PORTFOLIO FILTER -->                    
+            <div class="port-filter text-center text-left-767">
+              <a href="#" class="filter active" data-filter="*">Show All</a>
+              <a href="#" class="filter" data-filter=".travel">Travel</a>
+              <a href="#" class="filter" data-filter=".lifestyle">Lifestyle</a>
+              <a href="#" class="filter" data-filter=".people">People</a>
+              <a href="#" class="filter" data-filter=".food">Food</a>
+            </div>                    
+                    
+            <!-- ITEMS GRID -->
+            <ul class="port-grid display-hover-on-mobile port-grid-3 masonry clearfix" id="items-grid">
+
+              <!-- Item 1 -->
+              <li role="button" class="port-item mix travel"> 
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="images/travel-photos/melaka_02.jpg" alt="img" >
+                  </div>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                      <span>MELAKA, MALAYSIA</span>
+                    </div>
+                    <div class="port-btn-cont">
+                      <a href="images/travel-photos/melaka_02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                </div>
+              </li>
+ 
+              <!-- Item 2 -->
+              <li role="button" class="port-item mix people travel">
+                  <div class="port-img-overlay"><img class="port-main-img" src="images/people-photos/taiwan_24.jpg" alt="img" ></div>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                      <span>JO-EY<span class="slash-divider">/</span>KEELUNG, TAIWAN</span>
+                    </div>
+                    <div class="port-btn-cont">
+                      <a href="images/people-photos/taiwan_24.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                    </div>
+
+                </div>
+              </li>
+
+              <!-- Item 3 -->
+              <li role="button" class="port-item mix food">
+                  <div class="port-img-overlay"><img class="port-main-img" src="images/food-photos/mooncake_04.jpg" alt="img" ></div>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                      <span>MOONCAKE</span>
+                    </div>
+                    <div class="port-btn-cont">
+                      <a href="images/food-photos/mooncake_04.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                    </div>
+
+                </div>
+              </li>              
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix food">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="images/food-photos/spaghetti.jpg" alt="img" >
+                  </div>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                      <span>SPAGHETTI</span>
+                    </div>
+                    <div class="port-btn-cont">
+                      <a href="images/food-photos/spaghetti.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                    </div>
+
+                </div>
+              </li>
+                             
+              <!-- Item 4 -->
+              <li role="button" class="port-item mix people travel">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="images/people-photos/taiwan_12.jpg" alt="img" >
+                  </div>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                      <span>JO-EY<span class="slash-divider">/</span>JIUFEN, TAIWAN</span>
+                    </div>
+                    <div class="port-btn-cont">
+                      <a href="images/people-photos/taiwan_12.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                    </div>
+
+                </div>
+              </li>
+
+               <!-- Item 6 -->
+              <li role="button" class="port-item mix people travel">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="images/people-photos/taiwan_15.jpg" alt="img" >
+                  </div>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                      <span>JO-EY<span class="slash-divider">/</span>JIUFEN, TAIWAN</span>
+                    </div>
+                    <div class="port-btn-cont">
+                      <a href="images/people-photos/taiwan_15.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                    </div>
+
+                </div>
+              </li>
+
+              <!-- Item 6 -->
+              <li role="button" class="port-item mix people">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="images/people-photos/wengsheng.jpg" alt="img" >
+                  </div>
+
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                      <span>WENG SHENG</span>
+                    </div>
+                    <div class="port-btn-cont">
+                      <a href="images/people-photos/wengsheng.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                    </div>
+
+                </div>
+              </li>
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/china_01.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>GUI LIN, CHINA</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/china_01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix lifestyle">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/lifestyle-photos/car.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>CAR<span class="slash-divider">/</span>REFLECTION</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/lifestyle-photos/car.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/ashley_01.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>ASHLEY, RECEE</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/ashley_01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix food">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/food-photos/breakfast_01.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>BREAKFAST</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/food-photos/breakfast_01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/china_02.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>GUI LIN, CHINA</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/china_02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix lifestyle">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/lifestyle-photos/insect_01.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>INSECT</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/lifestyle-photos/insect_01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/ashley_02.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>ASHLEY</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/ashley_02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix food">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/food-photos/breakfast_02.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>BREAKFAST</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/food-photos/breakfast_02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>   
+                  
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/kelanajaya.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>KELANA JAYA</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/kelanajaya.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix lifestyle">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/lifestyle-photos/insect_02.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>INSECT</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/lifestyle-photos/insect_02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>      
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/zhiyin.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>ZHI YIN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/zhiyin.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix food">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/food-photos/cheesecake_01.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>LEMON CHEESECAKE</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/food-photos/cheesecake_01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>     
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/kububharu_01.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>KUALA KUBU BHARU</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/kububharu_01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix lifestyle">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/lifestyle-photos/ipoh_01.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>FRIENDS<span class="slash-divider">/</span>IPOH</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/lifestyle-photos/ipoh_01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>      
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/cousin_01.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>COUSIN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/cousin_01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix food">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/food-photos/cheesecake_02.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>LEMON CHEESECAKE</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/food-photos/cheesecake_02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>               
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/kububharu_02.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>KUALA KUBU BHARU</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/kububharu_02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix lifestyle">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/lifestyle-photos/ipoh_02.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>FRIENDS<span class="slash-divider">/</span>IPOH</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/lifestyle-photos/ipoh_02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>      
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/cousin_02.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>COUSIN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/cousin_02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix food">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/food-photos/cooking.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>COOKING<span class="slash-divider">/</span>PREP</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/food-photos/cooking.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>           
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/melaka_01.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>MELAKA, MALAYSIA</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/melaka_01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix lifestyle">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/lifestyle-photos/ipoh_03.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>FRIENDS<span class="slash-divider">/</span>IPOH</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/lifestyle-photos/ipoh_03.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>      
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/doo.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>AH DOO</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/doo.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix food">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/food-photos/lunch_01.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>LUNCH</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/food-photos/lunch_01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>   
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/melaka_03.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>MELAKA, MALAYSIA</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/melaka_03.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix lifestyle">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/lifestyle-photos/melaka.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>FRIENDS<span class="slash-divider">/</span>MELAKA</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/lifestyle-photos/melaka.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>      
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/hien.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>HIEN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/hien.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix food">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/food-photos/lunch_02.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>LUNCH</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/food-photos/lunch_02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>    
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/recee_01.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>RECEE<span class="slash-divider">/</span>WORK</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/recee_01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix lifestyle">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/lifestyle-photos/moong_01.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>MOONG<span class="slash-divider">/</span>DOG</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/lifestyle-photos/moong_01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>      
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/jenny_01.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JENNY</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/jenny_01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix food">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/food-photos/lunch_03.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>LUNCH</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/food-photos/lunch_03.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>                    
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/recee_02.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>RECEE<span class="slash-divider">/</span>WORK</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/recee_02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix lifestyle">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/lifestyle-photos/moong_02.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>MOONG<span class="slash-divider">/</span>DOG</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/lifestyle-photos/moong_02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>      
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/jenny_02.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JENNY</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/jenny_02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix food">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/food-photos/lunch_04.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>LUNCH</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/food-photos/lunch_04.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>   
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/singapore_01.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>SINGAPORE</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/singapore_01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix lifestyle">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/lifestyle-photos/moong_03.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>MOONG<span class="slash-divider">/</span>DOG</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/lifestyle-photos/moong_03.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>      
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/jenny_03.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JENNY</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/jenny_03.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix food">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/food-photos/lunch_05.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>LUNCH</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/food-photos/lunch_05.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>   
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/singapore_02.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>SINGAPORE</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/singapore_02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix lifestyle">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/lifestyle-photos/penang.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>FESTIVAL<span class="slash-divider">/</span>PENANG</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/lifestyle-photos/penang.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>      
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/joey_01.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/joey_01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix food">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/food-photos/mooncake_01.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>MOONCAKE</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/food-photos/mooncake_01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/singapore_03.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>SINGAPORE</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/singapore_03.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix lifestyle">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/lifestyle-photos/san_01.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>SAN<span class="slash-divider">/</span>CAT</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/lifestyle-photos/san_01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>      
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/joey_02.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/joey_02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix food">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/food-photos/mooncake_02.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>MOONCAKE</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/food-photos/mooncake_02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li> 
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/singapore_04.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>SINGAPORE</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/singapore_04.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix lifestyle">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/lifestyle-photos/san_02.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>SAN<span class="slash-divider">/</span>CAT</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/lifestyle-photos/san_02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>      
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/joey_03.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/joey_03.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix food">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/food-photos/mooncake_03.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>MOONCAKE</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/food-photos/mooncake_03.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>        
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/taiwan_01.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>KEELUNG, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/taiwan_01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix lifestyle">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/lifestyle-photos/san_03.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>SAN<span class="slash-divider">/</span>CAT</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/lifestyle-photos/san_03.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>      
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/keemin_01.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>KEE MIN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/keemin_01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix food">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/food-photos/pavlova_01.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>BAKING<span class="slash-divider">/</span>PAVLOVA</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/food-photos/pavlova_01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>        
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/taiwan_10.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>KEELUNG, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/taiwan_10.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix lifestyle">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/lifestyle-photos/san_04.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>SAN<span class="slash-divider">/</span>CAT</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/lifestyle-photos/san_04.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>      
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/keemin_02.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>KEE MIN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/keemin_02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix food">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/food-photos/pavlova_02.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>BAKING<span class="slash-divider">/</span>PAVLOVA</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/food-photos/pavlova_02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>              
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/taiwan_11.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>TRAIN<span class="slash-divider">/</span>TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/taiwan_11.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix lifestyle">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/lifestyle-photos/san_05.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>SAN<span class="slash-divider">/</span>CAT</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/lifestyle-photos/san_05.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>      
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/keemin_03.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>KEE MIN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/keemin_03.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix food">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/food-photos/pavlova_03.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>BAKING<span class="slash-divider">/</span>PAVLOVA</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/food-photos/pavlova_03.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>                  
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/taiwan_12.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>RUIFANG, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/taiwan_12.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix lifestyle">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/lifestyle-photos/san_06.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>SAN<span class="slash-divider">/</span>CAT</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/lifestyle-photos/san_06.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>      
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/keemin_04.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>KEE MIN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/keemin_04.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix food">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/food-photos/taiwan_01.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>CAKE SLICE<span class="slash-divider">/</span>TAICHUNG, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/food-photos/taiwan_01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>                                
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/taiwan_13.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>RUIFANG, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/taiwan_13.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix lifestyle">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/lifestyle-photos/san_07.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>SAN<span class="slash-divider">/</span>CAT</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/lifestyle-photos/taiwan_01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>      
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/keemin_05.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>KEE MIN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/keemin_05.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix food travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/food-photos/taiwan_02.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>CAKE SLICE<span class="slash-divider">/</span>TAICHUNG, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/food-photos/taiwan_02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>                       
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/taiwan_14.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>RUIFANG, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/taiwan_14.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix lifestyle">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/lifestyle-photos/taiwan_01.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>NIGHT<span class="slash-divider">/</span>TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/lifestyle-photos/taiwan_01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>      
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/raeburn.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>RAEBURN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/raeburn.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>   
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/taiwan_15.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>RUIFANG, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/taiwan_15.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix lifestyle">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/lifestyle-photos/taiwan_02.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>NIGHT<span class="slash-divider">/</span>TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/lifestyle-photos/taiwan_02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>      
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/steamboat.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/steamboat.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>              
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/taiwan_18.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JIUFEN, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/taiwan_18.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix lifestyle">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/lifestyle-photos/thule_01.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>THULE<span class="slash-divider">/</span>BAG</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/lifestyle-photos/thule_01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>      
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_01.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>   
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/taiwan_19.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JIUFEN, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/taiwan_19.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix lifestyle">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/lifestyle-photos/thule_02.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>THULE<span class="slash-divider">/</span>BAG</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/lifestyle-photos/thule_02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>      
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_02.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>   
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/taiwan_20.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JIUFEN, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/taiwan_20.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix lifestyle">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/lifestyle-photos/time.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>TIME</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/lifestyle-photos/time.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>      
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_03.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>TAICHUNG, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_03.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/taiwan_21.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JIUFEN, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/taiwan_21.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix lifestyle">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/lifestyle-photos/work.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>WORK</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/lifestyle-photos/work.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>      
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_04.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>TAICHUNG, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_04.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>              
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/taiwan_23.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JIUFEN, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/taiwan_23.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_05.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>TAICHUNG, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_05.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>   
+              
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/taiwan_26.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>TAIPEI, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/taiwan_26.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_06.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>TAICHUNG, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_06.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>   
+              
+
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/taiwan_30.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>TAICHUNG, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/taiwan_30.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_07.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>TAICHUNG, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_07.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/travel-photos/taiwan_34.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>TAICHUNG, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/travel-photos/taiwan_34.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_08.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>JIUFEN, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_08.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>    
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_09.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_09.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_10.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>JIUFEN, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_10.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>         
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_11.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_11.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_13.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_13.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>   
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_14.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>JIUFEN, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_14.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>         
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_16.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_16.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>                                                                                
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_17.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>KEELUNG, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_17.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li> 
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_18.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>KEELUNG, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_18.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_19.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>KEELUNG, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_19.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>         
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_20.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>KEELUNG, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_20.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>      
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_21.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>KEELUNG, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_21.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>                                                                                
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_22.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>KEELUNG, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_22.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>              
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people travel">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_23.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>KEELUNG, TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_23.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_25.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_25.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>      
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_26.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_26.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>                                                         
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_27.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_27.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>     
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_28.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_28.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>      
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_29.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_29.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li> 
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_30.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_30.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>   
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_31.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_31.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>                                                                                   
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_32.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_32.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>   
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_33.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_33.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>   
+
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_34.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_34.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>   
+  
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_35.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_35.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>   
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/taiwan_36.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>JO-EY<span class="slash-divider">/</span>TAIWAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/taiwan_36.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>                 
+                            
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/vivian.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>VIVIAN</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/vivian.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>  
+              
+              <!-- Item 5 -->
+              <li role="button" class="port-item mix people">
+                <div class="port-img-overlay">
+                  <img class="port-main-img" src="images/people-photos/waichong.jpg" alt="img" >
+                </div>
+              <div class="port-overlay-cont">
+
+                  <div class="port-title-cont">
+                    <span>WAI CHONG</span>
+                  </div>
+                  <div class="port-btn-cont">
+                    <a href="images/people-photos/waichong.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                  </div>
+                </div>
+              </li>                                             
+
+              </div>
+            </li>
+              
+            </ul>
+          
+          </div>
+        
+        </div>
+	    
+      </div>
+      
+
+        <!-- FOOTER 1 FONT WHITE only social links -->
+        <footer id="footer7" class="page-section text-center p-20-cont" style="background-color: #EEEEEE;">
+          <div class="container">
+                    
+            <!-- Social Links -->
+            <div class="footer-soc-a footer-soc-a-2">
+              <a class="a" href="http://www.instagram.com/jzonggg/" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+              <a class="a" href="https://www.facebook.com/jiongzhengong" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a class="a" href="https://www.youtube.com/channel/UCDzuCnJJVZMT1YDeq-RrAMQ" title="YouTube" target="_blank"><i class="fa fa-youtube-play"></i></a>
+              <a class="a" href="https://wa.me/60102265327" title="Phone" target="_blank"><i class="fa fa-phone"></i></a>
+              <a class="a" href="mailto:jiongzhengong@gmail.com" title="Mail" target="_blank"><i class="fa fa-envelope"></i></a>
+            </div>
+                    
+          </div>
+        </footer>
+        
+				<!-- BACK TO TOP -->
+				<p id="back-top">
+          <a href="#top" title="Back to Top"><span class="icon icon-arrows-up"></span></a>
+        </p>
+        
+			</div><!-- End BG -->	
+		</div><!-- End wrap -->	
+			
+<!-- JS begin -->
+
+		<!-- jQuery  -->
+		<script src="js/jquery-1.11.2.min.js"></script>
+
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>		
+
+		<!-- MAGNIFIC POPUP -->
+		<script src='js/jquery.magnific-popup.min.js'></script>
+    
+    <!-- PORTFOLIO SCRIPTS -->
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    
+    <!-- COUNTER -->
+    <script src="js/jquery.countTo.js"></script>
+    
+    <!-- APPEAR -->    
+    <script src="js/jquery.appear.js"></script>
+    
+    <!-- OWL CAROUSEL -->    
+    <script src="js/owl.carousel.min.js"></script>
+    
+    <!-- MAIN SCRIPT -->
+		<script src="js/main.js"></script>
+    
+<!-- JS end -->	
+	
+	</body>
+</html>		
