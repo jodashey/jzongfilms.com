@@ -1,5 +1,5 @@
-#remove html file extension https://jzongfilms.com/photos.html
-# to https://jzongfilms.com/photos
+#remove html file extension http://jzongfilms.com/photos.html
+# to http://jzongfilms.com/photos
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
