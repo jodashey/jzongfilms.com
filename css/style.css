@@ -1842,6 +1842,11 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   display: block;
   overflow: hidden;
 }
+
+.rounded-corners{
+  border-radius: 10px;
+}
+
 .port-overlay-cont {
   position: absolute;
   top: 0;
@@ -11220,4 +11225,14 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 }
 .shop-ad-height {
   height:200px;
+}
+
+#headerPopup{
+  width:75%;
+  margin:0 auto;
+}
+
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
 }
