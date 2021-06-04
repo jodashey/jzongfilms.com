@@ -1,0 +1,6 @@
+#remove html file extension https://jzongfilms.com/photos.html
+# to https://jzongfilms.com/photos
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
