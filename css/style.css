@@ -1985,9 +1985,10 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 }
 .port-view-more {
   display:block;
+  color: #ffffff;
   padding-top:40px;
   padding-bottom:37px;
-  background:#eee;
+  background:#4B4E53;
   font-family: 'Lato',Arial,Helvetica,sans-serif;
   font-size:18px;
   line-height:18px;
@@ -1996,10 +1997,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   -o-transition: all .3s ease 0s;
   transition: all .3s ease 0s;
 }
-.port-view-more:hover {
-  background:#dedede;
-  color:#4b4e53;
-}
+
 .port-view-more-cont-dark {
   text-align:center;
 }
@@ -11235,4 +11233,13 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 #headerPopup iframe{
   width:100%;
   margin:0 auto;
+}
+
+.resume-btn {
+  background:#4b4e53;
+  color: #ffffff;
+}
+.resume-btn:hover {
+  background:#292A2C;
+  color: #ffffff;
 }
