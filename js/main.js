@@ -599,7 +599,6 @@ function initImgHeight(){
     $(".js-height-fullscr").height($(window).height());
   })(jQuery);
 } 
-
 /* ---------------------------------------------
   MASONRY
 --------------------------------------------- */
