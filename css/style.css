@@ -877,6 +877,7 @@ support for no js
 	font-weight: 400;
   color:#4b4e53;
 }
+
 .w-50{
   width:50%;
 }
@@ -1934,7 +1935,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   padding-right: 10px;
 }
 .port-item:hover .port-overlay-cont, .lightbox-item:hover .port-overlay-cont {
-  padding-top: 40px;
+  padding-top: 30px;
 }
 .container .port-grid-5 .port-item:hover .port-overlay-cont, .container .port-grid-5 .lightbox-item:hover .port-overlay-cont {
   padding-top: 30px;
